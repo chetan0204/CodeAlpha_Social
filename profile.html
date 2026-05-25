@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+Profile
+
+</title>
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="geometric geo1"></div>
+<div class="geometric geo2"></div>
+<div class="geometric geo3"></div>
+
+<nav class="navbar">
+
+<h2>
+
+Profile
+
+</h2>
+
+<a href="index.html">
+
+Back
+
+</a>
+
+</nav>
+
+<section
+class="profile-card">
+
+<div
+class="profile-avatar"
+id="profileAvatar">
+
+U
+
+</div>
+
+<div class="editable-row">
+
+<h2
+id="userEmail">
+
+Loading...
+
+</h2>
+
+<button
+class="edit-btn"
+id="editBtn">
+
+Edit
+
+</button>
+
+</div>
+
+<p
+id="bioText">
+
+No bio yet
+
+</p>
+
+<!-- HIDDEN -->
+
+<div
+id="editSection"
+style="display:none;">
+
+<input
+type="text"
+id="usernameInput"
+placeholder="Username">
+
+<textarea
+id="bioInput"
+placeholder="Bio">
+</textarea>
+
+<button
+id="saveProfileBtn">
+
+Save
+
+</button>
+
+</div>
+
+<div
+class="profile-stats">
+
+<div class="stat-box">
+
+<h3 id="followersCount">0</h3>
+
+<p>Followers</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3 id="followingCount">0</h3>
+
+<p>Following</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div id="toast"></div>
+
+<script
+type="module"
+src="js/profile.js">
+
+</script>
+
+</body>
+</html>
