@@ -201,7 +201,7 @@ window.openProfile =
 function(uid){
 
 window.location.href =
-`profile.html?uid=${uid}`;
+`index.html?uid=${uid}`;
 
 }
 

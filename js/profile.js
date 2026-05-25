@@ -94,7 +94,7 @@ async(currentUser)=>{
 if(!currentUser){
 
 window.location.href =
-"login.html";
+"index.html";
 
 return;
 
