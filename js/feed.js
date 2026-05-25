@@ -80,7 +80,7 @@ showToast(
 setTimeout(()=>{
 
 window.location.href =
-"login.html";
+"index.html";
 
 },800);
 
