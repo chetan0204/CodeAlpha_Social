@@ -103,7 +103,7 @@ alert(
 );
 
 window.location.href =
-"login.html";
+"index.html";
 
 }
 catch(error){
@@ -148,7 +148,7 @@ alert(
 );
 
 window.location.href =
-"index.html";
+"home.html";
 
 }
 catch(error){
